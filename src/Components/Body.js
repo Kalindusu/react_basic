@@ -1,16 +1,13 @@
 import React from 'react'
+import ReactDOM from 'react-dom';
 
-export const Body = () => {
-  return (
-    <div className='body'>
-        <div> <button onClick={()=>{console.log("clicked")}}>Click</button></div>
-        <div>
-        <button onClick={()=>{console.log("clicked")}}>BUY</button>
-        </div>
-    </div>
+const heading=React.createElement('h1',{id:"title"},"Hello, I am here");
+console.log(heading);
 
-    
-  ) 
-};
-export default Body
+const jsxHeading=<h1 id="title">Hello, I am here</h1>;
+console.log(jsxHeading);
 
+const root=ReactDOM.createRoot(document.getElementById('root'));
+root.render(heading)
+
+export default Body;
