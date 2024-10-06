@@ -35,4 +35,22 @@ const HeadinfFunction=()=>(
  </div>
 );
 
+
+//Normal function
+
+const F1=function(){
+    return(
+        <h1 id="title">Hello, I am here</h1>
+    )
+};
+//Arrow function
+const F2=()=>(
+    <h1 id="title">Hello, I am here</h1>
+);
+
+//arrow function in different way with Fu
+const F3=()=>{
+    return <h1 id="title">Hello, I am here</h1>
+}
+
 export default Body;
