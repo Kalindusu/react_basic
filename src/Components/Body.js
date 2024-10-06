@@ -20,5 +20,10 @@ root.render(jsxHeading)
 const HeadingFunction=()=>{
     return <h1 id="title">Hello, I am here</h1>
 }
+// these functions are same 
+const fn1=()=>true;
+const f2=()=>{
+    return true;
+}
 
 export default Body;
