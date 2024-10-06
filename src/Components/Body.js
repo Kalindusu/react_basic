@@ -25,5 +25,14 @@ const fn1=()=>true;
 const f2=()=>{
     return true;
 }
+const Title=()=>(
+    <h1 id="title">Hello, I am here</h1>
+);
+const HeadinfFunction=()=>(
+    <div className='App'>
+        <Title/>
+ <h1 id="title">Hello, I am here</h1>
+ </div>
+);
 
 export default Body;
