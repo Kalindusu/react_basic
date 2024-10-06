@@ -52,6 +52,11 @@ const F2=()=>(
 const F3=()=>{
     return <h1 id="title">Hello, I am here</h1>
 }
-
+//React element
+const element=(
+    <div>
+        <h1 id="title">Hello, I am here</h1>
+    </div>
+);
 
 export default Body;
